@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int x,y,z;
+        Scanner sl=new Scanner(System.in);
+        x=sl.nextInt();
+         y=sl.nextInt();
+         z=sl.nextInt();
+        if(x>y&&y>z)
+        {
+            System.out.println(x);
+        
+        }
+         else if (y>z&&z>x)
+         {
+          System.out.println(y);
+         }
+        else{
+            System.out.println(z);
+        }
+    }
+}
