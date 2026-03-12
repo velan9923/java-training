@@ -1,0 +1,15 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+      int x,y,temp;
+        Scanner ss=new Scanner(System.in);
+        x=ss.nextInt();
+        y=ss.nextInt();
+        temp=x;
+        x=y;
+        y=temp;
+        System.out.println(x+"\t"+y);
+}
+}
