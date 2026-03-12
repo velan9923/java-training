@@ -1,0 +1,13 @@
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int x,y,z;
+        Scanner sf=new Scanner(System.in);
+        x=sf.nextInt();
+        y=sf.nextInt();
+        z=x%y;
+        System.out.println(z);
+    }
+}
