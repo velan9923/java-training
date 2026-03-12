@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int x;
+        Scanner sl=new Scanner(System.in);
+        x=sl.nextInt();
+      
+        
+        if(x>=40)
+        {
+            System.out.println("Pass");
+        
+        }
+        else{
+            System.out.println("Fail");
+        }
+    }
+}
