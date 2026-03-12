@@ -1,0 +1,22 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       int x;
+        Scanner sl=new Scanner(System.in);
+        x=sl.nextInt();
+         
+     
+        if(x>0)
+        {
+            System.out.println("Positive");
+        
+        }
+       
+        else{
+            System.out.println("Negative");
+        }
+    }
+}
