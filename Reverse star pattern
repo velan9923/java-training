@@ -1,0 +1,18 @@
+import java.util.*;
+ public class main {
+     public static void main(String[]args)
+     {
+         Scanner s=new Scanner(System.in);
+         int i,j;
+         int num=0;
+         int d=s.nextInt();
+         for (i=d;i>=1;i--){
+            for(j=1;j<=i;j++)
+            {
+                System.out.print("*");
+            }
+            System.out.println();
+         }
+     }
+ }
+         
