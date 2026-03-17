@@ -1,0 +1,28 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        
+        Scanner d=new Scanner(System.in);
+  
+        int n=d.nextInt();
+        int i;
+        int e=0;
+        int o=0;
+        for(i=1;i<=n;i++)
+        {
+            if(i%2==0)
+            {
+                e=e+i;
+              
+            }
+            else
+            {
+                o=o+i;
+            }
+
+        }
+        System.out.println("sum of even"+ e);
+        System.out.println("sum od odd"+ o);
+
+    }
+}
