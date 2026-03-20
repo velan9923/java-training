@@ -1,0 +1,26 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner s=new Scanner(System.in);
+        int count=0;
+        int m=s.nextInt();
+        int n=s.nextInt();
+        int a[][]=new int[50][50];
+        
+        for(int i=0;i<m;i++){
+            for(int j=0;j<n;j++){
+           a [i][j]=s.nextInt();
+           if(a[i][j]>0){
+            count++;
+        
+         
+           }
+    }
+       
+        }
+        System.out.print(count);
+   } 
+}
