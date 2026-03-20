@@ -18,9 +18,10 @@ public class Solution {
         else if(a[i][j]<0){
         System.out.println("Negative numbers:"+a[i][j]);
    }    
-   else{
+   else if (a[i][j]==0){
      System.out.println("Zero:"+a[i][j]);
    }
+    System.out.println();
         }
          
            }
